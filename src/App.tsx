@@ -27,6 +27,7 @@ export default function App(){
       <h1 className="text-2xl">Data from Api</h1>
     
     <div className="gap-2 flex justify-between">
+      <label >For who forget: charizard</label>
       <input className="border " placeholder="pokemon name" type="text" value={currentInput} onChange={(e) => setCurrentInput(e.target.value)}/>
       <button className="border" onClick={() => {
         featchData()
